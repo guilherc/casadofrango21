@@ -18,7 +18,7 @@
         }
         header img {
             width: 120px;
-            border-radius: 50%;
+            border-radius: 50%; /* Imagem da logo arredondada */
         }
         h1 {
             font-size: 24px;
@@ -34,13 +34,14 @@
         .icon-container a img {
             width: 35px;
             height: auto;
+            border-radius: 50%; /* Ícones arredondados */
         }
         .button-container {
             margin: 30px auto;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 15px;
+            gap: 20px;
         }
         .button-container a {
             text-decoration: none;
@@ -48,26 +49,30 @@
             align-items: center;
             justify-content: center; /* Centraliza o texto */
             text-align: center; /* Centraliza o texto nos botões */
-            width: 80%;
-            max-width: 300px;
-            background-color: #fff;
-            color: #000;
-            padding: 10px 20px;
+            width: 90%;
+            max-width: 400px; /* Aumentei a largura */
+            padding: 15px 25px; /* Aumentei o padding */
+            border: 2px solid #fff; /* Borda branca */
             border-radius: 30px;
-            font-size: 16px;
+            background-color: transparent; /* Fundo transparente por padrão */
+            color: #fff;
+            font-size: 14px; /* Diminuí o tamanho da fonte */
             font-weight: bold;
-            transition: transform 0.3s, background-color 0.3s;
-            position: relative; /* Para garantir que o ícone e o texto fiquem alinhados */
+            position: relative; /* Para alinhar ícone e texto */
+            transition: transform 0.3s, background-color 0.3s, color 0.3s;
         }
         .button-container a img {
             width: 30px;
+            height: auto;
             margin-right: 10px;
+            border-radius: 50%; /* Ícones dentro dos botões arredondados */
             position: absolute;
             left: 20px; /* Posiciona o ícone à esquerda dentro do botão */
         }
         .button-container a:hover {
-            transform: scale(1.05);
-            background-color: #f2f2f2;
+            background-color: #fff; /* Fundo branco ao passar o mouse */
+            color: #000; /* Texto preto no hover */
+            transform: scale(1.05); /* Efeito de zoom */
         }
         footer {
             margin-top: 20px;
@@ -83,25 +88,25 @@
         <h1>Casa do Frango 21</h1>
     </header>
     <div class="icon-container">
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://www.instagram.com/casadofrango021/" target="_blank">
             <img src="images/instagram.png" alt="Instagram">
         </a>
-        <a href="https://wa.me/555599999999" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=5521980291218" target="_blank">
             <img src="images/whatsapp.png" alt="WhatsApp">
         </a>
     </div>
     <div class="button-container">
-        <a href="cardapio.html">
-            <img src="images/logo.jpeg" alt="Cardápio">
-            Cardápio
+        <a href="https://casadofrango21.ola.click">
+            <img src="images/logo.jpeg" alt="CARDÁPIO">
+            CARDÁPIO
         </a>
-        <a href="https://www.google.com/search?q=casa+do+frango+21" target="_blank">
+        <a href="https://www.google.com/search?q=CASA+DO+FRANGO+GUADALUPE&sca_esv=9ea83b4b79de5e32&biw=1600&bih=731&sxsrf=ADLYWIK99Qa056iiO25PRVwkiVpdkvVfgQ%3A1731788706119&ei=ov84Z631Bqmq1sQP1eqQkAc&ved=0ahUKEwitzp3V1-GJAxUplZUCHVU1BHIQ4dUDCA8&uact=5&oq=CASA+DO+FRANGO+GUADALUPE&gs_lp=Egxnd3Mtd2l6LXNlcnAiGENBU0EgRE8gRlJBTkdPIEdVQURBTFVQRTIOEC4YgAQYxwEYjgUYrwEyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQFI3R5QAFiHHnAAeACQAQCYAaABoAHdF6oBBDAuMjO4AQPIAQD4AQGYAhegAqAYwgIEECMYJ8ICChAjGIAEGCcYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIOEC4YgAQYsQMY0QMYxwHCAgUQLhiABMICBRAAGIAEwgILEC4YgAQY0QMYxwHCAhAQLhiABBjRAxgUGIcCGMcBwgIKEC4YgAQYQxiKBcICChAAGIAEGEMYigXCAg0QABiABBixAxhDGIoFwgIQEC4YgAQYQxjHARiKBRivAcICCBAuGIAEGLEDwgIOEAAYgAQ#" target="_blank">
             <img src="images/google.png" alt="Google">
-            Avalie a gente no Google
+            AVALIE A GENTE NO GOOGLE
         </a>
-        <a href="https://goo.gl/maps/example" target="_blank">
+        <a href="https://www.google.com/maps/place/Av.+Acr%C3%ADsio+Mota,+331+-+Guadalupe,+Rio+de+Janeiro+-+RJ,+21660-270/data=!4m2!3m1!1s0x99639884610479:0x320c2dea84ce0b42?sa=X&ved=1t:242&ictx=111" target="_blank">
             <img src="images/map.png" alt="Como chegar">
-            Como chegar
+            COMO CHEGAR
         </a>
     </div>
 </body>
