@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(180deg, #FF0000, #8B0000);
+            background-color: #FF0000; /* Fundo com tom único de vermelho */
             color: #fff;
             text-align: center;
         }
@@ -46,7 +46,8 @@
             text-decoration: none;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center; /* Centraliza o texto */
+            text-align: center; /* Centraliza o texto nos botões */
             width: 80%;
             max-width: 300px;
             background-color: #fff;
@@ -56,10 +57,13 @@
             font-size: 16px;
             font-weight: bold;
             transition: transform 0.3s, background-color 0.3s;
+            position: relative; /* Para garantir que o ícone e o texto fiquem alinhados */
         }
         .button-container a img {
             width: 30px;
             margin-right: 10px;
+            position: absolute;
+            left: 20px; /* Posiciona o ícone à esquerda dentro do botão */
         }
         .button-container a:hover {
             transform: scale(1.05);
